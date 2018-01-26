@@ -1,10 +1,18 @@
-## aframe-react-boilerplate
+## Wiki VR
 
-Boilerplate for building virtual reality experiences with
-[A-Frame](https://aframe.io) and React with
-[aframe-react](https://github.com/ngokevin/aframe-react).
+Mangles together the following libs:
 
-![aframe-react-boilerplate](https://cloud.githubusercontent.com/assets/674727/24401414/286adeec-1369-11e7-8c41-22810d22d8d0.png)
+[A-Frame](https://aframe.io)
+[aframe-react](https://github.com/ngokevin/aframe-react)
+[aframe-forcegraph-component](https://github.com/vasturiano/aframe-forcegraph-component)
+[wtf_wikipedia](https://github.com/spencermountain/wtf_wikipedia)
+[create-react-app](https://github.com/facebook/create-react-app)
+
+# Todo
+- Add recursion to the getData function
+- Size of node === number of citations
+- Colour === editing activity
+
 
 ### Installation
 
@@ -13,10 +21,4 @@ To get started:
 ```bash
 npm install
 npm start
-```
-
-To publish to GitHub Pages:
-
-```bash
-npm run publish
 ```
